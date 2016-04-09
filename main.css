@@ -1,0 +1,222 @@
+.body-xx{
+    padding:40px 200px 0px 200px;
+    background:#FFF url(../images/bg.png) top center repeat-x;
+    background-image: url(image/bg.png);
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+}
+.head{
+  
+  border: 2px solid #E1E1E1;
+  border-radius: 15px;
+  padding: 15px 21px 3px 21px;
+}
+.logo{
+  margin-bottom: 10px;
+  margin-right: 20px;
+  
+}
+.head-block{
+  display: inline-block;  
+}
+.img-round{
+  width: 150px;
+  height: 100px;
+}
+.ver-men{
+  display: inline-block;
+  width: 170px;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #DCDCDC;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+/******************************************MENU**********************/
+.nav1 {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;  
+}
+.nav1 > li {
+  position: relative;
+  display: block;
+  min-width: 150px;
+}
+.nav1 > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 5px;
+  background-color: #F5F5F5;
+}
+.nav1 > li > a:hover,
+.nav1 > li > a:focus {
+  text-decoration: none;
+  background-color: #E6E6E6;
+}
+.nav1 > li.disabled > a {
+  color: green;
+}
+.nav1 > li.disabled > a:hover,
+.nav1 > li.disabled > a:focus {
+  color: green;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav1 .open > a,
+.nav1 .open > a:hover,
+.nav1 .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+.nav1 .nav1-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav1 > li > a > img {
+  max-width: none;
+}
+.nav1-tabs {
+  
+}
+.nav1-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+    
+}
+.nav1-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 4px 4px;
+    background-color: #74DF00;
+  color:green;
+  min-width: 151px;
+  min-height: 40px;
+  text-align: center;
+  align-content: center;
+}
+.nav1-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+  background-color: #D0FA58;
+  
+}
+.nav1-tabs > li.active > a,
+.nav1-tabs > li.active > a:hover,
+.nav1-tabs > li.active > a:focus {
+  color:green;
+  cursor: default;
+  background-color: #D0FA58;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+/********************************************************************************************************/
+.text-ver {
+  
+  background-color:#03B500;
+  width: 170px;
+  border: 1px solid #03B500;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 5px;
+}
+.block-ver{
+  display: block; 
+  margin-top: 10px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  width: 180px;
+  padding: 5px;
+}
+.content{
+  width: 100%;
+  border: 2px solid #CCCCCC;
+  border-radius: 7px;
+  padding: 5px;
+  overflow:hidden;
+  background-color: azure;
+}
+.right-m{
+  display: inline-block;
+  float: right;
+}
+.right-l{
+  display: inline-block;
+  float: left;
+}
+.box-x{
+  white-space:nowrap;
+   display:inline-block;
+}
+.box div{  
+ 
+  }
+.glav{
+  padding: 10px;
+  width: 560px;
+  display: inline-block;
+  float: left;
+}
+.text_f{
+   width: 385px;
+  text-align: center;
+  align-content: center;
+}.in_f{
+   width: 400px;
+   margin-left: 30px;
+}
+.btn_send{
+  margin-left:45px;
+}
+.aut_form {
+  margin-top: 30px;
+  width: 70%; 
+  margin-left: 100px;
+}
+.text_fr{
+  margin-left: 230px;
+}
+.red{
+  color: red;
+  text-align: center;
+}
+.insert{
+  border: 1px solid #E6E6E6;
+  padding: 15px;
+  border-radius: 10px;
+}
+.update {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+}
+.spisok{
+  margin-left: 150px; 
+}
+.update-s{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+}
+.footer{
+  background-color:#58FA82;
+  min-height: 80px;
+  border-radius: 7px;
+  border: 1px solid #D8D8D8;
+}
+.inl{
+  display: inline-block;
+  padding: 2px 18px 2px 18px;
+}
